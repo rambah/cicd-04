@@ -1,3 +1,8 @@
-module github.com/mrckurz/cd2020-ex04
+module github.com/rambah/cicd-04
 
-go 1.17
+go 1.20
+
+require (
+	github.com/gorilla/mux v1.8.0
+	github.com/lib/pq v1.10.7
+)
